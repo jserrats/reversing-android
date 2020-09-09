@@ -1,0 +1,1 @@
+echo $(adb shell pm list packages | grep $1 | cut -f2 -d:)
